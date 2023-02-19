@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\ayush\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-responsive-carousel
+
+PATH: 
+  C:\Users\ayush\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\ayush\bin;C:\Users\ayush\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\ayush\AppData\Local\Programs\Python\Python310;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\Cloudflare\Cloudflare WARP;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Git\cmd;C:\Users\ayush\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\ayush\AppData\Local\Programs\Python\Python311;C:\Users\ayush\AppData\Local\Microsoft\WindowsApps;C:\Users\ayush\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ayush\Desktop\Flutter Dev\flutter\bin;C:\Users\ayush\.dotnet\tools;C:\Users\ayush\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.9.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:111:26)
+
+npm manifest: 
+  {
+    "name": "amazon",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "@heroicons/react": "^2.0.15",
+      "@next/font": "13.1.6",
+      "@tailwindcss/line-clamp": "^0.4.2",
+      "@types/react": "^18.0.28",
+      "@types/react-dom": "^18.0.11",
+      "firebase": "^9.17.1",
+      "firebase-admin": "^11.5.0",
+      "next": "13.1.6",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-redux": "8.0.5"
+    },
+    "devDependencies": {
+      "autoprefixer": "^10.4.13",
+      "postcss": "^8.4.21",
+      "tailwindcss": "^3.2.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
